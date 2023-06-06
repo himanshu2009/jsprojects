@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color:white
+}
+
+
+
+.card{
+    width:200px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.15);
+    border:1px solid rgba(255,255,255,0.25);
+}
+
+#searchbtn{
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(75, 75, 141);
+    border-radius: 3px;
+    
+   
+}
+.getcityname{
+    padding: 15px 10px;
+    font-size: medium;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.main{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.options{
+    display: flex;
+    gap: 5px;
+}
+
